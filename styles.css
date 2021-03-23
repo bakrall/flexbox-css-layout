@@ -1,6 +1,4 @@
 .app {
-	display: flex;
-	flex-direction: column;
 	background: blue;
 	height: 500px;
 }
@@ -10,6 +8,7 @@
 	position: fixed;
 	width: 100%;
 	z-index: 1;
+	top: 0;
 }
 
 .main {
@@ -40,7 +39,6 @@
 .container {
 	background: green;
 	margin-left: 200px;
-	height: 400px;
 	overflow: auto;
 	width: calc(100% - 191px);
 }
