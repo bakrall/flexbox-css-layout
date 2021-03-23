@@ -14,10 +14,7 @@
 }
 
 .main {
-	display: flex;
-	flex: 1;
 	margin-top: 129px;
-	position: relative;
 }
 
 .tree {
@@ -33,9 +30,15 @@
 	z-index: 1;
 	background: green;
 	width: calc(100% - 233px);
+	top: 134px;
+}
+
+.container-content {
+	margin-top: 15px;
 }
 
 .container {
 	background: green;
 	margin-left: 200px;
+	height: 100%
 }
